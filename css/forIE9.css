@@ -1,0 +1,33 @@
+/*for IE9*/
+.select-box {
+    position:relative;
+    display:inline-block;
+    z-index:0
+}
+.select-box select {
+    z-index:-1;
+    float: right;
+    margin-left: 92px;
+}
+
+.states label {
+    margin-right: 18.5px;
+}
+
+.select-box label:before {
+    display:block;
+    position:absolute;
+    content:'';
+    right:0px;
+    top:0px;
+    height:29.5px;
+    width:29.5px;
+    margin:1px;
+    background-image: url(../images/select-arrow.jpg);
+	background-repeat: no-repeat;
+	background-size: 29.5px;
+	background-position-x: 100%;
+	padding-left: 4px;
+    z-index:0;
+}
+/*/ie9*/

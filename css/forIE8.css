@@ -1,0 +1,79 @@
+/*table*/
+table tr:first-child + *, 
+table tr:first-child + * + * + *, 
+table tr:first-child + * + * + * + * + *,
+table tr:first-child + * + * + * + * + * + * + *,
+table tr:first-child + * + * + * + * + * + * + * + * + * {
+  background: #d1e6cf;  
+}  
+
+ 
+table tr:first-child + * + * , 
+table tr:first-child + * + * + * + * ,
+table tr:first-child + * + * + * + * + * + * ,
+table tr:first-child + * + * + * + * + * + * + * + * {
+  background: #e9f3e9;  
+} 
+
+table .resume{
+	background: #e5120d;
+	color: #fff;
+}
+
+form .green-button {
+	border: 1px;
+    border-right-color: #0a751a;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color: #0a751a;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-color: #0a751a;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: #0a751a;
+    border-top-style: solid;
+    border-top-width: 1px;
+    text-align: center;
+    /*font-weight: bold;*/
+    height: 36px;
+    color: #fff;
+    border-radius: 7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    background: #51b749; /* old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b749', endColorstr='#01a822',GradientType=0 ); /* IE6-8 */
+	/*shadow*/
+	box-shadow: 0 1px 2px #9d9d9d;
+	-pie-background: linear-gradient(top, #51b749 0%,#01a822 100%); /* ie8 */
+	behavior: url(PIE.htc); /* ie8 */
+	outline: none;
+}
+
+input[type=text]{
+	line-height: 28px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 1px 7px #9d9d9d;
+}
+
+.select-box select {
+	margin-left: 95px;
+}
+
+.select-box #state {
+	margin-left: 93px;
+}
+
+select {
+	height: 28px;
+}
+
+
+input[type="checkbox"]{
+	width: 16px;
+	height: 16px;
+	border: 2px solid #BBB;
+}
